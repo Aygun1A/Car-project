@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    /* overflow: hidden; */
+}
+body{
+background-color: red;
+padding-left: 20px;
+}
+nav{
+    width: 250px;
+    height: 100vh;
+    background-color: gray;
+    position: fixed;
+    z-index: 3;
+    margin-left: -250px;
+}
+nav:hover{
+    transition: 2s margin-left;
+    margin-left: -20px;
+    cursor: pointer;
+}
+nav ul{
+    list-style-position: inside;
+    margin-top: 30px;
+    list-style-position: inside;
+    padding-left: 50px;
+    
+
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li:hover{
+    border-bottom: 2px solid white;
+}
+nav ul li a{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 10px;
+}
+.car{
+width: 250px;
+height: 250px;
+background-color: white;
+text-align: center;
+border-radius: 5px;
+box-shadow: 3px 3px 3px 4px grey;
+float: left;
+margin: 7px;
+}
+.car:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+.car img{
+    width: auto;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.car h4{
+color: red;
+font-size: 19px;
+}
+.car p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.car p s{
+    color: red;
+}
+.car p b{
+  color: green;  
+}
+
+.car div img{
+    width: 10px;
+    height: 10px;
+}
